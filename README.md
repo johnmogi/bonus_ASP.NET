@@ -16,4 +16,15 @@ Which files and folders were created?
 mostly everything you see in this repo, but publish added release and debug folders.
 actual project files are in the release - publish folder.
 
+## Part 2: Create website on your Microsoft machine
+
+- Add IIS to your windows server:
+
+using rdp, added feaures - IIS.
+
+- Does it works? If not, make it work
+
+finally, adding json URL 5100 - got a crash because both IIS and dotnet aplication dll ran on the same port (socket)
+resolved by stopping IIS and running dotnet command.
+
 ![screenshot from within the server](/win.jpg)
